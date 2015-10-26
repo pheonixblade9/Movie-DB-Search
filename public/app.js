@@ -93,12 +93,12 @@ function showDetails(detailsElement, id) {
 
 //helper function to get the URL for a movie search
 function getMovieSearchUrl(title) {
-	return "http://www.omdbapi.com/?s=" + title.replace(" ", "+") + "&r=json";
+	return "https://www.omdbapi.com/?s=" + title.replace(" ", "+") + "&r=json";
 }
 
 //helper function to get the URL for a detailed search by ID
 function getMovieDetailsUrl(id) {
-	return "http://www.omdbapi.com/?i=" + id + "&r=json";
+	return "https://www.omdbapi.com/?i=" + id + "&r=json";
 }
 
 //retrieves JSON as a GET from the given path
