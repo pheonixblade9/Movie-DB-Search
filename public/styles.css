@@ -1,0 +1,25 @@
+.queryHolder {
+	padding: 10px;
+}
+
+.movieHolder {
+	padding: 5px;
+}
+
+.favoriteBtn {
+	margin-right: 3px;
+}
+
+.movieHolder > span {
+	cursor:pointer;
+    color:blue;
+    text-decoration:underline;
+}
+
+.movieHolder > span:hover {
+	text-decoration:none;
+}
+
+.detailsHolder {
+	margin-left: 15px;
+}
